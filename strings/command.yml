@@ -50,7 +50,7 @@ SKIP_COMMAND : ["skip", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["mrestart"]
+RESTART_COMMAND : ["restart"]
 
 # Sudo Users Commaands
 
@@ -103,10 +103,10 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevcs"]
-ACTIVEVIDEO_COMMAND : ["activebokep"]
+ACTIVEVC_COMMAND : ["activevc"]
+ACTIVEVIDEO_COMMAND : ["activevcs"]
 
 #Gban Commands
-GBAN_COMMAND : ["mgban"]
-UNGBAN_COMMAND : ["mungban"]
+GBAN_COMMAND : ["gban"]
+UNGBAN_COMMAND : ["ungban"]
 GBANNED_COMMAND : ["gbannedusers"]
